@@ -1,1 +1,7 @@
-что
+echo "# Larnos-Planet" >> README.md
+git init
+git add README.md
+git commit -m "что"
+git branch -M main
+git remote add origin https://github.com/Ochpochmaks/Larnos-Planet.git
+git push -u origin main
