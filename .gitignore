@@ -1,6 +1,0 @@
-git init
-git add README.md
-git commit -m "что"
-git remote add origin
-git branch -M main <https://github.com/Ochpochmaks/Larnos-Planet.git>
-git push -u origin main
