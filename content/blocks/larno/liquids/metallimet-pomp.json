@@ -1,0 +1,27 @@
+{
+  "type": "pump",
+  "name": "Метаметалловая помпа",
+  "hasLiquids": true,
+  "liquidCapacity": 40,
+  "size": 2,
+  "squareSprite": false,
+  "pumpAmount": 0.20,
+  "category": "liquid",
+  "requirements": [
+    {"item": "metallimet", "amount": 60},
+    {"item": "copper", "amount": 30}
+  ]
+  "research": {
+    "parent": "core-metallimet",
+    "requirements": [
+      {"item": "metallimet", "amount": 320},
+      {"item": "copper", "amount": 500}
+    ],
+    "objectives": [
+     {
+       "type": "OnSector",
+       "preset": "amor-island"
+     }
+    ]
+  }
+}
