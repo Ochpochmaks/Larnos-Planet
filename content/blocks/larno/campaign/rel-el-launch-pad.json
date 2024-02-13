@@ -1,0 +1,31 @@
+{
+  "name": "Рело-Тронеливая пусковая площадка",
+  "description": "",
+  "health": 2400,
+  "type": "launchPad",
+  "category": "effect",
+  "research": {
+    "parent": "core-metallimet",
+    "requirements": [
+      {"item": "metallimet", "amount": 5000},
+      {"item": "rel", "amount": 3000},
+      {"item": "larn", "amount": 4000},
+      {"item": "tron-el", "amount": 1000}
+    ],
+    "objectives": [
+     {
+        "type": "SectorComplete",
+        "preset": "enter-Artolium"
+     }
+    ]
+  },
+  "requirements": [
+    {"item": "rel", "amount": 1250},
+    {"item": "metallimet", "amount": 3000},
+    {"item": "larn", "amount": 2000},
+    {"item": "tron-el", "amount": 100}
+  ],
+  "size": 3,
+  "itemCapacity": 500,
+  "launchTime": 4000
+}

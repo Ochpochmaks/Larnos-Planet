@@ -1,0 +1,32 @@
+{
+  "name": "Суметовая пусковая площадка",
+  "description": "",
+  "health": 3500,
+  "type": "launchPad",
+  "category": "effect",
+  "research": {
+    "parent": "rel-el-launch-pad",
+    "requirements": [
+      {"item": "metallimet", "amount": 10000},
+      {"item": "sumet", "amount": 3500},
+      {"item": "larn", "amount": 8000},
+      {"item": "tron-el", "amount": 6000},
+      {"item": "rel", "amount": 7000}
+    ],
+    "objectives": [
+     {
+        "type": "SectorComplete",
+        "preset": "O.S.C."
+     }
+    ]
+  },
+  "requirements": [
+    {"item": "sumet", "amount": 1250},
+    {"item": "metallimet", "amount": 5000},
+    {"item": "larn", "amount": 4000},
+    {"item": "tron-el", "amount": 3000}
+  ],
+  "size": 4,
+  "itemCapacity": 1000,
+  "launchTime": 1800
+}
