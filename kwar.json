@@ -1,9 +1,0 @@
-{
-   "type": "material",
-   "name": "Кварезит",
-   "description": "",
-   "color": "fcfcfa",
-   "research": {
-      "parent": "larn"
-   }
-}
