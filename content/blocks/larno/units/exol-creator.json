@@ -1,0 +1,38 @@
+{
+  "type": "UnitFactory",
+  "name": "Создатель Эксолов",
+  "description": "",
+  "health": 1000,
+  "size": 3,
+  "consumes": {
+    "power": 1.3
+  },
+  "plans": [
+  	{
+      "unit": "exol",
+      "requirements": [
+	       {"item": "tron-el", "amount": 10},
+	       {"item": "metallimet", "amount": 40},
+        {"item": "larn", "amount": 35}
+      ],
+      "time": 1200
+    },
+  ],
+  "requirements": [
+      {"item": "tron-el", "amount": 100},
+      {"item": "metallimet", "amount": 400},
+      {"item": "larn", "amount": 350}
+  ],
+  "category": "units",
+  "research": {
+     "parent": "core-metallimet",
+     "requirements": [
+        {"item": "metallimet", "amount": 1200},
+        {"item": "tron-el", "amount": 700},
+        {"item": "larn", "amount": 1000}
+     ]
+     "objectives": [
+        {"type": "SectorComplete", "preset": "amor-island"}
+     ]
+  }
+}

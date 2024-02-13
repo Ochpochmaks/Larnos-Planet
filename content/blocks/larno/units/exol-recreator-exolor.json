@@ -1,0 +1,39 @@
+type: Reconstructor
+size: 3
+health: 1200
+constructTime: 2400
+name: Реконструктор Эксолов
+consumes: {
+  power: 2
+    items: {
+      items: [
+        {"item": "metallimet", "amount": 230},
+        {"item": "rel", "amount": 100},
+        {"item": "larn", "amount": 180},
+        {"item": "titanium", "amount": 150}
+      ]
+    }
+}
+upgrades: [
+  [exol, exolor]
+]
+requirements: [
+  {"item": "metallimet", "amount": 500},
+  {"item": "larn", "amount": 200},
+  {"item": "titanium", "amount": 400}
+]
+category: units
+research: {
+    "parent": "exol-creator",
+    "objectives": [
+        {
+            "type": "SectorComplete",
+            "preset": "O.S.C."
+        }
+     ]
+},
+researchCost: [
+    {"item": "metallimet", "amount": 500}
+    {"item": "larn", "amount": 300}
+    {"item": "rel", "amount": 150}
+  ]

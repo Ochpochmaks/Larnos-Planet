@@ -1,0 +1,38 @@
+{
+   "name": "Конструктор Арко",
+   "description": "",
+   "health": 1000,
+   "size": 3,
+   "type": "UnitFactory",
+   "consumes": {
+     "power": 1.4
+   },
+   "plans": [
+     {
+      "unit": "akro",
+      "requirements": [
+        {"item": "metallimet", "amount": 40},
+        {"item": "larn", "amount": 30},
+        {"item": "rel", "amount": 25}
+      ],
+      "time": 1800
+     }
+   ],
+   "category": "units",
+   "requirements": [
+     {"item": "metallimet", "amount": 400},
+     {"item": "larn", "amount": 300},
+     {"item": "rel", "amount": 250}
+   ],
+   "research": {
+     "parent": "core-metallimet",
+     "requirements": [
+       {"item": "metallimet", "amount": 4000},
+       {"item": "larn", "amount": 3000},
+       {"item": "rel", "amount": 2500}
+     ],
+     "objectives": [
+       {"type": "SectorComplete", "preset": "triple-attack"}
+     ]
+   }
+}

@@ -1,0 +1,40 @@
+{
+   "type": "Reconstructor",
+   "size": 3,
+   "health": 1500,
+   "constructTime": 3000,
+   "name": "Реконструктор Эксолоров",
+   "consumes": {
+     "power": 2,
+     "items": {
+      "items": [
+        {"item": "metallimet", "amount": 30},
+        {"item": "shenium", "amount": 10},
+        {"item": "tron-el", "amount": 20},
+        {"item": "titanium", "amount": 15}
+      ]
+     }
+   },
+   "upgrades": [
+    [exolor, exolorium]
+   ],
+   "requirements": [
+     {"item": "metallimet", "amount": 300},
+     {"item": "shenium", "amount": 100},
+     {"item": "tron-el", "amount": 200},
+     {"item": "titanium", "amount": 150}
+   ],
+   "category": "units"
+   "research": {
+     "parent": "exol-recreator-exolor",
+     "requirements": [
+        {"item": "metallimet", "amount": 3000},
+        {"item": "shenium", "amount": 1000},
+        {"item": "tron-el", "amount": 2000},
+        {"item": "titanium", "amount": 1500}
+     ],
+     "objectives": [
+        {"type": "SectorComplete", "preset": "O.S.C."}
+     ]
+   }
+}
