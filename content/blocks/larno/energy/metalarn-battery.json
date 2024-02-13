@@ -1,0 +1,31 @@
+{
+   "type": "Battery",
+   "name": "Металарниевый аккумулятор",
+   "category": "power",
+   "size": 1,
+   "health": 620,
+   "conductivePower": true,
+   "consumes": {
+     "powerBuffered": 6000
+   },
+   "requirements": [
+     {"item": "larn", "amount": 50},
+     {"item": "metallimet", "amount": 70},
+     {"item": "kwar", "amount": 15}
+   ],
+
+  "research": {
+     parent: "metalarn-node",
+     requirements: [
+        {"item": "metallimet", "amount": 1200},
+        {"item": "larn", "amount": 1000},
+        {"item": "kwar", "amount": 400} 
+     ],
+     objectives: [
+          {
+            type: OnSector
+            preset: larn-archipelago
+          }
+     ]
+   }
+}

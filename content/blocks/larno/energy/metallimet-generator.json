@@ -1,0 +1,38 @@
+{
+   "name": "Метаметалловый генератор",
+   "type": "consumeGenerator",
+   "description": "",
+   "health": 1700,
+   "size": 2,
+   "hasPower": true,
+   "powerProduction": 1.2,
+   "itemDuration": 120,
+   "requirements": [
+       {"item": "metallimet", "amount": 700},
+       {"item": "lead", "amount": 300},
+       {"item": "thorium", "amount": 400}
+   ],
+  "research": {     
+    "parent": "core-metallimet",
+    "requirements": [
+      {"item": "titanium", "amount": 800},
+      {"item": "metallimet", "amount": 3000},
+      {"item": "larn", "amount": 400},
+      {"item": "kwar", "amount": 150}
+    ],
+    "objectives": [
+      {
+        "type": "SectorComplete",
+        "preset": "larn-archipelago"
+      }
+    ]
+  },
+   "consumes": {
+      "items": {
+          "items": [
+             {"item": "metallimet", "amount": 1}
+          ]
+      }
+   },
+    "category": "power"
+}

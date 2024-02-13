@@ -1,0 +1,42 @@
+{
+   "name": "Кварезито-Релиевый ветряной генератор",
+   "description": "",
+   "type": "ConsumeGenerator",
+   "powerProduction": 0.75
+   "hasPower": true
+   "outputsPower": true
+   "category": power
+   "size": 2,
+   "requirements": [
+      {"item": "metallimet", "amount": 230},
+      {"item": "larn", "amount": 160},
+      {"item": "kwar", "amount": 50},
+      {"item": "rel", "amount": 70}
+   ],
+   "drawer": {
+      "type": "DrawMulti"
+      "drawers": [
+      {
+      "type": "DrawDefault"
+      }
+      {
+      "type": "DrawRegion",
+      "suffix": -rotator,
+      "spinSprite": true,
+      "rotateSpeed": 3
+      }
+     ]
+   },
+   "research": {
+      "parent": "metallimet-generator",
+      "requirements": [
+         {"item": "metallimet", "amount": 2300},
+         {"item": "larn", "amount": 1600},
+         {"item": "kwar", "amount": 500},
+         {"item": "rel", "amount": 700}
+      ],
+      "objectives": [
+         {"type": "SectorComplete", "preset": "enter-Artolium"}
+      ]
+   }
+}

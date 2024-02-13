@@ -1,0 +1,29 @@
+{
+  "laserRange": 10,
+  "maxNodes": 10,
+  "category": "power",
+  "name": "Металарниевый силовой узел",
+  "description": "",
+  "health": 100,
+  "size": 1,
+  "itemCapacity": 10,
+
+  "requirements": [
+    {"item": "metallimet", "amount": 10},
+    {"item": "larn", "amount": 5}
+  ],
+  "research": {
+    "parent": "core-metallimet",
+    "requirements": [
+        {"item": "larn", "amount": 150},
+        {"item": "metallimet", "amount": 280}
+    ],
+    objectives: [
+        {
+            type: "OnSector",
+            preset: "larn-archipelago"
+        }
+    ]
+  },
+  "type": "PowerNode"
+}
