@@ -1,0 +1,81 @@
+{
+  "name": "Эксол",
+  "description": "",
+  "speed": 2,
+  "accel": 0.7,
+  "drag": 0.5,
+  "outlineColor": "212121",
+  "flying": true,
+  "health": 500,
+  "armor": 2,
+  "isEnemy": true,
+  "range": 50,
+  "TargetAir": "true",
+  "commandLimit": "10",
+  "destructableWreck": "false",
+  "weapons": [
+    {
+      "name": "lasur",
+      "reload": 12,
+      "shootSound": "bolt",
+      "ejectEffect": "none",
+      "smokeEffect": "none",
+      "recoil": 4,
+      "bullet":{
+        "damage": 15,
+        "sideAngle": 5,
+        "sideWidth": 4,
+        "sideLength": 25,
+        "width": 7,
+        "colors": [
+          "dd4444ff",
+          "ff6666ff",
+          "ffffffff"
+        ],
+        "length": 25,
+        "shootEffect":{
+          "effects": [
+            {
+              "sizeFrom": 2,
+              "sizeTo": 1,
+              "lifetime": 8,
+              "colorFrom": "ff6666ff",
+              "colorTo": "ff6666ff",
+              "type": "ParticleEffect"
+            },
+            {
+              "sizeFrom": 2,
+              "sizeTo": 1,
+              "length": 6,
+              "interp": "circleOut",
+              "sizeInterp": "swingIn",
+              "lifetime": 13,
+              "colorFrom": "ff6666ff",
+              "colorTo": "ff666600",
+              "type": "ParticleEffect"
+            }
+          ],
+          "type": "MultiEffect"
+        },
+        "hitEffect":{
+          "sizeFrom": 2,
+          "sizeTo": 1,
+          "lifetime": 8,
+          "colorFrom": "ff6666ff",
+          "colorTo": "ff6666ff",
+          "type": "ParticleEffect"
+        },
+        "despawnEffect":{
+          "sizeFrom": 2,
+          "sizeTo": 1,
+          "lifetime": 8,
+          "colorFrom": "ff6666ff",
+          "colorTo": "ff6666ff",
+          "type": "ParticleEffect"
+        },
+        "type": "LaserBulletType"
+      },
+      "type": "Weapon"
+    }
+  ]
+}
