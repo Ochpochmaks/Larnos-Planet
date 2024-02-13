@@ -1,0 +1,13 @@
+{
+   "sector": 1,
+   "planet": nofamo,
+   "alwaysUnlocked": false,
+   "objectives": [
+      {
+        "type": "SectorComplete",
+        "preset": "last-point"
+      },
+      "sumet-brewer"
+   ],
+   "useAI": true
+}

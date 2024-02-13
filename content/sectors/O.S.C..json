@@ -1,0 +1,18 @@
+{
+  sector: 16
+  planet: larno
+  research: {
+    "parent": "amor-island",
+    "objectives": [
+            {
+            type: "SectorComplete",
+            preset: "amor-island"
+        }
+	     "reality"
+	  ]
+  }
+  useAI: true
+  captureWave: 45
+  difficulty: 6
+  alwaysUnlocked: false
+}

@@ -1,0 +1,17 @@
+{
+  sector: 42
+  planet: larno
+  research: {
+    "parent": "enter-Artolium",
+    "objectives": [
+            {
+            type: "SectorComplete",
+            preset: "enter-Artolium"
+        }
+	     "sumet-brewer"
+	  ]
+  }
+  useAI: true
+  difficulty: 7
+  alwaysUnlocked: false
+}

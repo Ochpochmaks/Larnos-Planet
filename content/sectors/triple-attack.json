@@ -1,0 +1,18 @@
+{
+  sector: 15
+  planet: larno
+  research: {
+    "parent": "ice-glade",
+    "objectives": [
+            {
+            type: "SectorComplete",
+            preset: "ice-glade"
+        }
+	     "larn-copper-mixer"
+   	]
+  }
+  useAI: true
+  captureWave: 23
+  difficulty: 3
+  alwaysUnlocked: false
+}
