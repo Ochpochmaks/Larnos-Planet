@@ -1,0 +1,24 @@
+{
+   "name": "Большая Метаметалловая стена",
+   "type": "Wall",
+   "description": "",
+   "health": 3000,
+   "size": 2,
+   "requirements": [
+       {"item": "metallimet", "amount": 60}
+   ],
+   "research": {
+       "parent": "metallimet-wall",
+       "requirements": [
+           {"item": "metallimet", "amount":  700}
+           {"item": "copper", "amount": 800}
+       ],
+       "objectives": [
+         {
+            "type": "OnSector",
+            "preset": "dosarium-ravnina"
+         }
+       ]
+   },
+   "category": "defense"
+}

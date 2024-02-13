@@ -1,0 +1,23 @@
+{
+   "name": "Ларнская стена",
+   "description": "",
+   "type": "Wall",
+   "health": 420,
+   "size": 1,
+   "requirements": [
+          {"item": "larn", "amount": 15}
+   ],
+   "category": "defense",
+   "research": {
+         "parent": "metallimet-wall",
+         "requirements": [
+              {"item": "larn", "amount": 400}
+         ],
+         "objectives": [
+            {
+               "type": "OnSector",
+               "preset": "ice-glade"
+            }
+         ]
+   }
+}

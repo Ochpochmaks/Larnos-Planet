@@ -1,0 +1,25 @@
+{
+   "name": "Шениевая стена",
+   "type": "Wall",
+   "description": "",
+   "health": 1200,
+   "size": 1,
+   "requirements": [
+       {"item": "shenium", "amount": 30}
+   ],
+   "research": {
+       "parent": "larn-wall",
+       "requirements": [
+           {"item": "shenium", "amount":  700},
+           {"item": "copper", "amount": 1000},
+           {"item": "metallimet", "amount": 1300}
+       ],
+       "objectives": [
+         {
+            "type": "OnSector",
+            "preset": "amor-island"
+         }
+       ]
+   },
+   "category": "defense"
+}

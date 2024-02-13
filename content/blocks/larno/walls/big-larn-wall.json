@@ -1,0 +1,23 @@
+{
+   "name": "Большая ларнская стена",
+   "description": "",
+   "type": "Wall",
+   "health": 4200,
+   "size": 2,
+   "requirements": [
+          {"item": "larn", "amount": 40}
+   ],
+   "category": "defense",
+   "research": {
+        "parent": "larn-wall",
+        "requirements": [
+              {"item": "larn", "amount": 200}
+        ],
+        "objectives": [
+          {
+             "type": "OnSector",
+             "preset": "ice-glade"
+          }
+        ]
+   }
+}

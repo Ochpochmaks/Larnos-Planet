@@ -1,0 +1,25 @@
+{
+   "name": "Большая Шениевая стена",
+   "type": "Wall",
+   "description": "",
+   "health": 7000,
+   "size": 2,
+   "requirements": [
+       {"item": "shenium", "amount": 100}
+   ],
+   "research": {
+       "parent": "shenium-wall",
+       "requirements": [
+           {"item": "metallimet", "amount":  2000}
+           {"item": "copper", "amount": 1900}
+           {"item": "shenium", "amount": 1500}
+       ],
+       "objectives": [
+         {
+            "type": "OnSector",
+            "preset": "amor-island"
+         }
+       ]
+   },
+   "category": "defense"
+}
