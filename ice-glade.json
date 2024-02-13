@@ -1,0 +1,18 @@
+{
+  sector: 2
+  planet: larno
+  research: {
+    "parent": "dosarium-ravnina",
+    "objectives": [
+            {
+            type: "SectorComplete",
+            preset: "dosarium-ravnina"
+        }
+	     "metallom"
+	  ]
+  }
+  useAI: true
+  captureWave: 20
+  difficulty: 2
+  alwaysUnlocked: false,
+}

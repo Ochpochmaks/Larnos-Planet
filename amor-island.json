@@ -1,0 +1,18 @@
+{
+  sector: 36
+  planet: larno
+  research: {
+    "parent": "larn-archipelago",
+    "objectives": [
+            {
+            type: "SectorComplete",
+            preset: "larn-archipelago"
+        }
+	     "nova-slimer"
+	  ]
+  }
+  useAI: true
+  captureWave: 35
+  difficulty: 5
+  alwaysUnlocked: false
+}

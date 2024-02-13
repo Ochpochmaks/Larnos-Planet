@@ -1,0 +1,85 @@
+{
+  "name": "Эксолор",
+  "description": "",
+  "speed": 2.3,
+  "accel": 0.5,
+  "drag": 0.5,
+  "outlineColor": "212121",
+  "flying": true,
+  "health": 700,
+  "armor": 4,
+  "range": 80,
+  "TargetAir": "true",
+  "destructableWreck": "false",
+  "weapons": [
+    {
+      "name": "lasur2",
+      "reload": 10,
+      "shootSound": "blaster",
+      "ejectEffect": "none",
+      "smokeEffect": "none",
+      "recoil": 2,
+      "bullet":{
+        "damage": 60,
+        "sideAngle": 5,
+        "sideWidth": 4,
+        "sideLength": 45,
+        "width": 10,
+        "colors": [
+          "e8e225",
+          "ff6666ff",
+          "ffffffff"
+        ],
+        "length": 45,
+        "shootEffect":{
+          "effects": [
+            {
+              "sizeFrom": 2,
+              "sizeTo": 1,
+              "lifetime": 8,
+              "colorFrom": "ff6666ff",
+              "colorTo": "ff6666ff",
+              "type": "ParticleEffect"
+            },
+            {
+              "sizeFrom": 2,
+              "sizeTo": 1,
+              "length": 6,
+              "interp": "circleOut",
+              "sizeInterp": "swingIn",
+              "lifetime": 13,
+              "colorFrom": "ff6666ff",
+              "colorTo": "ff666600",
+              "type": "ParticleEffect"
+            }
+          ],
+          "type": "MultiEffect"
+        },
+        "hitEffect":{
+          "sizeFrom": 2,
+          "sizeTo": 1,
+          "lifetime": 8,
+          "colorFrom": "ff6666ff",
+          "colorTo": "ff6666ff",
+          "type": "ParticleEffect"
+        },
+        "despawnEffect":{
+          "sizeFrom": 2,
+          "sizeTo": 1,
+          "lifetime": 8,
+          "colorFrom": "ff6666ff",
+          "colorTo": "ff6666ff",
+          "type": "ParticleEffect"
+        },
+        "type": "LaserBulletType"
+      },
+      "type": "Weapon"
+    }
+  ],
+  "research": {
+    "parent": "exol-recreator-exolor",
+    "requirements": [
+      {"item": "metallimet", "amount": 0}
+    ]
+  }
+}

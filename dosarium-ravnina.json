@@ -1,0 +1,11 @@
+{
+  sector: 1
+  planet: larno
+  research: {
+    parent: "core-metallimet"
+  }
+  useAI: true
+  captureWave: 15
+  difficulty: 4
+  alwaysUnlocked: true
+}

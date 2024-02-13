@@ -1,0 +1,12 @@
+{
+   "name": "Лава",
+   "description": "",
+   "color": "d94a23",
+   "temperature": 1,
+   "viscosity": 0.6,
+   "flammability": 0.4,
+   "coolant": true,
+   "research": {
+       "parent": "antiheat"
+   }
+}

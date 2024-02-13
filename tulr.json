@@ -1,0 +1,31 @@
+name: "Тулр"
+type: payload
+flying: true
+health: 200
+armor: 5
+hitSize: 8.4
+
+controller: BuilderAI
+isEnemy: false
+mineWalls: true
+mineFloor: true
+buildSpeed: 1.2
+itemCapacity: 20
+
+speed: 2
+accel: 0.2
+drag: 0.1
+mineSpeed: 2
+mineTier: 1
+rotateSpeed: 10
+
+crashDamageMultiplier: 0
+hittable: false
+targetable: false
+fogRadius: 0
+coreUnitDock: true
+outlineColor: 212121
+
+payloadCapacity: 64
+pickupUnits: false
+vulnerableWithPayloads: true
