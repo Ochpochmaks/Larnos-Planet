@@ -1,0 +1,27 @@
+{
+   "type": CoreBlock
+   "name": "Метаметалловое ядро"
+   "category": effect
+   "health": 1700
+   "size": 3
+   "itemCapacity": 6500
+   "unitCapModifier": 10
+
+   "incinerateNonBuildable": true
+   "isFirstTier": true
+   "squareSprite": false
+   "unitType": "tulr"
+
+   "requirements": [
+     {"item": "metallimet", "amount": 5500}
+     {"item": "copper", "amount": 6000}
+   ]
+
+"research": {
+    "root": true
+    "name": Ларно
+   	"planet": larno
+}
+
+   "alwaysUnlocked": true
+}
