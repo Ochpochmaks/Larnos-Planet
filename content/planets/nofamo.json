@@ -1,0 +1,60 @@
+generator: SerpuloPlanetGenerator
+parent: S3550FGH
+iconColor: f5e16e
+orbitRadius: 90
+hasAtmosphere: true,
+updateLighting: true,
+atmosphereRadIn: 0.1,
+atmosphereRadOut: 0.3,
+atmosphereColor: fffa94,
+drawOrbit: true,
+
+accessible: true
+alwaysUnlocked: true
+sectorSeed: 324
+startSector: 1
+sectorSize: 2
+solarSystem: S3550FGH
+
+clearSectorOnLose: true
+allowSectorInvasion: false
+allowLaunchToNumbered: false
+	
+cloudMesh: {
+  type: HexSkyMesh
+  planet: nofamo
+  seed: 6
+  speed: 2
+  radius: 0.1
+  divisions: 6
+  color: 8f8421
+  octaves: 2
+  persistence: 1
+  scl: 2
+  thresh: 0.45
+}
+
+mesh: {
+    type: NoiseMesh
+    planet: nofamo
+    seed: 56164
+    color1: e3d37b
+    color2: eda240
+    divisions: 6
+    radius: 0.9
+    octaves: 7
+    persistence: 1
+    scl: 0.75
+    mag: 1.2
+}
+	
+itemWhiteList: [
+    "ferium",
+    "girium",
+    "norium",
+    "toar",
+    "irium",
+    "varl",
+    "kanrolium",
+    "sumet"
+]

@@ -1,0 +1,57 @@
+generator: SerpuloPlanetGenerator
+parent: S3550FGH
+iconColor: 85ffff
+orbitRadius: 140
+hasAtmosphere: true,
+updateLighting: true,
+atmosphereRadIn: 0.1,
+atmosphereRadOut: 0.3,
+atmosphereColor: 2e8a15,
+drawOrbit: true,
+
+accessible: true
+alwaysUnlocked: false
+sectorSeed: 520
+startSector: 1
+sectorSize: 2
+solarSystem: S3550FGH
+
+clearSectorOnLose: true
+allowSectorInvasion: false
+allowLaunchToNumbered: false
+	
+cloudMesh: {
+  type: HexSkyMesh
+  planet: druol
+  seed: 6
+  speed: 2
+  radius: 0.1
+  divisions: 6
+  color: 499ac9
+  octaves: 2
+  persistence: 1
+  scl: 2
+  thresh: 0.45
+}
+
+mesh: {
+    type: NoiseMesh
+    planet: druol
+    seed: 56164
+    color1: 85ffff
+    color2: 499ac9
+    divisions: 6
+    radius: 0.9
+    octaves: 7
+    persistence: 1
+    scl: 0.75
+    mag: 1.2
+}
+	
+itemWhiteList: [
+    "jeronium",
+    "plunium",
+    "hinium",
+    "wenium",
+    "relium"
+]
