@@ -1,0 +1,40 @@
+{
+   "type": "genericCrafter",
+   "name": "Мешалка кварезита",
+   "description": "",
+   "outputItem": {"item": "kwar", "amount": 1},
+   "size": 2,
+   "hasPower": false,
+   "hasItem": true,
+   "health": 700,
+   "craftTime": 180,
+   "updateEffect": "smeltsmoke",
+   "consumes": {
+       "items": {
+          "items": [
+              {"item": "larn", "amount": 3},
+              {"item": "copper", "amount": 5}
+          ]
+       }
+   },
+   "requirements": [
+       {"item": "copper", "amount": 100},
+       {"item": "larn", "amount": 50}
+   ],
+   "category": "crafting",
+   "research": {
+       "parent": "core-metallimet"
+       "requirements": [
+            {"item": "larn", "amount": 1000},
+            {"item": "copper", "amount": 2000}
+       ],
+       "objectives": [
+         {
+            "type": "SectorComplete",
+            "preset": "ice-glade"
+         }
+       ]
+   },
+   "idleSound": "respawning",
+   "idleSoundVolume": 0.3
+}

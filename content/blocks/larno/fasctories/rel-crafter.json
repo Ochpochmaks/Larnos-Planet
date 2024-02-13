@@ -1,0 +1,37 @@
+{
+   "type": "genericCrafter",
+   "name": "Релиевый компрессор",
+   "description": "",
+   "health": 1500,
+   "size": 2,
+   "hasPower": true,
+   "hasItems": true,
+   "outputItem": {"item": "rel", "amount": 2},
+   "consumes":{
+       "power": 1,
+       "items": {
+          "items": [
+            {"item": "silicon", "amount": 3},
+            {"item": "thorium", "amount": 5},
+            {"item": "metallimet", "amount": 6}
+          ]
+       }
+   },
+   "category": "crafting",
+   "requirements": [
+       {"item": "lead", "amount": 150},
+       {"item": "thorium", "amount": 55},
+       {"item": "larn", "amount": 30},
+       {"item": "metallimet", "amount": 200}
+   ],
+   "research": {
+       "parent": "larn-copper-mixer",
+       "objectives": [
+            {
+            type: "SectorComplete",
+            preset: "triple-attack"
+            }
+	         "larn-copper-mixer"
+       	]
+   }
+}

@@ -1,0 +1,33 @@
+{
+   "name": "Очиститель Антинагревной жидкости"
+   "description": "",
+   "health": 1000,
+   "size": 5,
+   "type": "genericCrafter",
+   "outputLiquid": {"liquid": "water", "amount": 3},
+   "consumes": {
+     "power": 4,
+     "liquids": {
+        "liquids": [
+          {"liquid": "antiheat", "amount": 4}
+        ]
+     }
+   },
+   "category": "liquid",
+   "requirements": [
+     {"item": "metallimet", "amount": 140},
+     {"item": "larn", "amount": 100},
+     {"item": "rel", "amount": 230}
+   ],
+   "research": {
+     "parent": "shenium-cleaner",
+     "requirements": [
+        {"item": "metallimet", "amount": 1400},
+        {"item": "larn", "amount": 1000},
+        {"item": "rel", "amount": 1600}
+     ],
+     "objectives": [
+        {"type": "SectorComplete", "preset": "passage-arto"}
+     ]
+   }
+}

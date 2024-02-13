@@ -1,0 +1,41 @@
+{
+   "name": "Создатель Ларния",
+   "description": "",
+   "type": "genericCrafter",
+   "category": "crafting",
+   "health": 1800,
+   "size": 3,
+   "hasPower": true,
+   "outputItem": {"item": "larn", "amount": 1},
+   "consumes": {
+      "power": 0.6,
+      "items": {
+         "items": [
+            {"item": "copper", "amount":  10},
+            {"item": "titanium", "amount": 10},
+            {"item": "thorium", "amount": 7}
+         ]
+      }
+   },
+   "requirements": [
+      {"item": "tron-el", "amount": 70},
+      {"item": "titanium", "amount": 140},
+      {"item": "copper", "amount": 350},
+      {"item": "rel", "amount": 120}
+   ],
+   "research": {
+      "parent": "tron-el-creator",
+      "requirements": [
+         {"item": "titanium", "amount": 4800},
+         {"item": "rel", "amount": 600},
+         {"item": "kwar", "amount": 2300},
+         {"item": "copper", "amount": 6800}
+      ],
+      "objectives": [
+        {
+           "type": "OnSector",
+           "preset": "O.S.C."
+        }
+      ]
+   }
+}

@@ -1,0 +1,36 @@
+{
+   "name": "Создатель слизи",
+   "type": "genericCrafter",
+   "description": "Тщательно смалывает Ларний и Метаметалл в густую слизь. Нужна энергия.",
+   "liquidCapacity": 30,
+   "outputLiquid": {"liquid": "slime", "amount": 8},
+   "size": 2,
+   "hasPower": true,
+   "hasLiquids": true,
+   "health": 1000,
+   "craftTime": 10,
+   "consumes": {
+      "power": 0.8,
+      "items": {
+        "items": [
+          {"item": "larn", "amount": 3},
+          {"item": "metallimet", "amount": 5}
+        ]
+      } 
+   },
+   "requirements": [
+        {"item": "larn", "amount": 50},
+        {"item": "metallimet", "amount": 80},
+        {"item": "copper", "amount": 100}
+   ]
+   "category": "crafting",
+   "research": {
+        "parent": "larn-copper-mixer",
+        "requirements": [
+           {"item": "larn", "amount": 400},
+           {"item": "metallimet", "amount": 500},
+           {"item": "titanium", "amount": 700},
+           {"item": "kwar", "amount": 200}
+        ]
+   }
+}

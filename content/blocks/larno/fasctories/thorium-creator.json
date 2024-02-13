@@ -1,0 +1,47 @@
+{
+   "type": "genericCrafter",
+   "name": "Создатель тория",
+   "description": "",
+   "outputItem": {"item": "thorium", "amount": 1},
+   "hasPower": true,
+   "hasLiquids": true,
+   "size": 2,
+   "health": 1000,
+   "category": "crafting",
+   "consumes": {
+      "power": 2,
+      "items": {
+         "items": [
+           {"item": "titanium", "amount": 5},
+           {"item": "metallimet", "amount": 3},
+           {"item": "graphite", "amount": 6}
+         ]
+      },
+      "liquids": {
+         "liquids": [
+           {"liquid": "slime", "amount": 1}
+         ]
+      }
+   },
+   "requirements": [
+      {"item": "titanium", "amount": 150},
+      {"item": "graphite", "amount": 120},
+      {"item": "copper", "amount": 240},
+      {"item": "metallimet", "amount": 330}
+   ],
+   "research": {
+      "parent": "tron-el-creator",
+      "requirements": [
+          {"item": "titanium", "amount": 1200},
+          {"item": "copper", "amount": 2000},
+          {"item": "graphite", "amount": 1300},
+          {"item": "metallimet", "amount": 3000}
+      ],
+      objectives: [
+        {
+          type: "SectorComplete",
+          preset: "O.S.C."
+        }
+      ]
+   }
+}

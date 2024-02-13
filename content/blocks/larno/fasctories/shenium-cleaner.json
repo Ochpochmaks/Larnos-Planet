@@ -1,0 +1,44 @@
+{
+   "name": "Шениумовый Очиститель",
+   "description": "",
+   "type": "genericCrafter",
+   "outputItem": {"item": "shenium", "amount": 1},
+   "size": 4,
+   "health": 2400,
+   "consumes": {
+      "liquids": {
+         "liquids": [
+           {"liquid": "water", "amount": 2.5}
+         ]
+      },
+      "items": {
+         "items": [
+            {"item": "larn", "amount": 2},
+            {"item": "kwar", "amount": 1}
+         ]
+      }
+   },
+   "research": {
+     "parent": "rel-crafter",
+     "requirements": [
+       {"item": "titanium", "amount":  2000},
+       {"item": "copper", "amount": 5000},
+       {"item": "kwar", "amount": 1000},
+       {"item": "metallimet", "amount": 7000},
+       {"item": "larn", "amount": 700}
+     ],
+     "objectives": [
+            {
+            type: "OnSector",
+            preset: "amor-island"
+            }
+	    ]
+   },
+   "category": "crafting",
+   "requirements": [
+     {"item": "kwar", "amount": 240},
+     {"item": "metallimet", "amount": 500},
+     {"item": "copper", "amount": 400},
+     {"item": "larn", "amount": 350}
+   ]
+}

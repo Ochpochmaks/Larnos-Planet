@@ -1,0 +1,49 @@
+{
+   "name": "Суметовая варилка",
+   "description": "",
+   "type": "genericCrafter",
+   "outputItem": {"item": "sumet", "amount": 1},
+   "health": 2000,
+   "size": 3,
+   "hasPower": true,
+   "requirements": [
+       {"item": "tron-el", "amount": 120},
+       {"item": "rel", "amount": 250},
+       {"item": "metallimet", "amount": 500},
+       {"item": "larn", "amount": 320},
+       {"item": "kwar", "amount": 240},
+       {"item": "copper", "amount": 400}
+   ],
+   "consumes": {
+       "power": 2.5,
+       "items": {
+          "items": [
+             {"item": "tron-el", "amount": 2},
+             {"item": "rel", "amount": 1},
+             {"item": "metallimet", "amount": 3},
+             {"item": "kwar", "amount": 2},
+             {"item": "larn", "amount": 4}
+          ]
+       }
+   },
+   "category": "crafting",
+   "research": {
+       "parent": "tron-el-creator",
+       "requirements": [
+          {"item": "rel", "amount": 700},
+          {"item": "kwar", "amount": 400},
+          {"item": "larn", "amount": 2000},
+          {"item": "metallimet", "amount": 7000},
+          {"item": "tron-el", "amount": 700},
+          {"item": "titanium", "amount": 3000},
+          {"item": "copper", "amount": 13000},
+          {"item": "thorium", "amount": 5000}
+       ],
+       objectives: [
+        {
+            type: "OnSector",
+            preset: "passage-arto"
+        }
+    ]
+   }
+}

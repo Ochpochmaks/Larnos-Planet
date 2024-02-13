@@ -1,0 +1,45 @@
+{
+   "name": "Обрабатыватель слизи",
+   "type": "genericCrafter",
+   "description": "",
+   "health": 1200,
+   "size": 2,
+   "hasPower": true,
+   "hasLiquid": true,
+   "outputLiquid": {"liquid": "nova-slime", "amount": 0.7},
+   "craftTime": 20,
+   "consumes": {
+       "power": 1.1,
+       "items": {
+          "items": [
+             {"item": "kwar", "amount": 4}
+          ]
+       },
+       "liquids": {
+          "liquids": [
+             {"liquid": "slime", "amount": 5}
+          ]
+       }
+   },
+   "requirements": [
+       {"item": "copper", "amount": 40},
+       {"item": "larn", "amount": 60},
+       {"item": "titanium", "amount": 80},
+       {"item": "metallimet", "amount": 100}
+   ],
+   "category": "crafting",
+   "research": {
+       "parent": "slime-crafter",
+       "requirements": [
+           {"item": "copper", "amount": 500},
+           {"item": "larn", "amount": 600},
+           {"item": "metallimet", "amount": 2000}
+       ],
+       "objectives": [
+         {
+            "type": "SectorComplete",
+            "preset": "ice-glade"
+         }
+       ]
+   }
+}
