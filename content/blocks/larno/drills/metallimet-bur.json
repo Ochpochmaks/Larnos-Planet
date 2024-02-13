@@ -1,0 +1,26 @@
+{
+   "name": "Метаметалловый бур",
+   "description": "",
+   "type": "Drill",
+   "tier": 4,
+   "drillTime": 840,
+   "size": 2,
+   "requirements": [
+      {"item": "metallimet", "amount": 20},
+      {"item": "copper", "amount": 30}
+   ],
+   "research": {
+      "parent": "core-metallimet",
+      "requirements": [
+         {"item": "metallimet", "amount": 360},
+         {"item": "copper", "amount": 500}
+      ],
+      "objectives": [
+       {
+         "type": "OnSector",
+         "preset": "dosarium-ravnina"
+       }
+      ]
+   },
+   "category": "production"
+}
