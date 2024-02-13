@@ -1,0 +1,52 @@
+{
+   "name": "Реальность",
+   "type": "LiquidTurret",
+   "description": "",
+   "range": 130,
+   "category": "turret",
+   "health": 500,
+   "size": 2,
+   "hasLiquids": true,
+   "ammoTypes": {
+      "slime": {
+         "liquid": "slime",
+         "damage": 30,
+         "speed": 1.0,
+         "type": "liquidBulletType"
+      },
+      "nova-slime": {
+         "liquid": "nova-slime",
+         "damage": 45,
+         "speed": 3.0,
+         "type": "liquidBulletType"
+      },
+      "water": {
+         "liquid": "water",
+         "speed": 2.0,
+         "damage": 25,
+         "type": "liquidBulletType"
+      }
+   },
+   "requirements": [
+      {"item": "tron-el", "amount": 35},
+      {"item": "rel", "amount": 10},
+      {"item": "metallimet", "amount": 120},
+      {"item": "kwar", "amount": 50},
+      {"item": "titanium", "amount": 230}
+   ],
+   "research": {
+      "parent": "unreality",
+      "requirements": [
+          {"item": "tron-el", "amount": 240},
+          {"item": "metallimet", "amount": 3000},
+          {"item": "rel", "amount": 200},
+          {"item": "titanium", "amount": 1400}
+      ],
+      objectives: [
+        {
+            type: "OnSector",
+            preset: "larn-archipelago"
+        }
+    ]
+   }
+}

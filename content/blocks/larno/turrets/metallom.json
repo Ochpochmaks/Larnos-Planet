@@ -1,0 +1,32 @@
+{
+   "type": "itemTurret"
+   "name": "Металлом",
+   "description": "",
+   "health": 350,
+   "size": 1,
+   "range": 100,
+   "ammoTypes": {
+      "metallimet": {
+           "speed": 2.0,
+           "damage": 25,
+           "type": "BasicBulletType"
+      }
+   },
+   "requirements": [
+      {"item": "copper", "amount": 30},
+      {"item": "metallimet", "amount": 50},
+      {"item": "silicon", "amount": 10}
+   ],
+   "research": {
+       "parent": "core-metallimet"
+       "requirements": [
+          {"item": "silicon", "amount": 400},
+          {"item": "copper", "amount": 1000},
+          {"item": "metallimet", "amount": 1500}
+       ],
+       "objectives": [
+          {"type": "OnSector", "preset": "dosarium-ravnina"}
+       ]
+   },
+   "category": "turret"
+}

@@ -1,0 +1,35 @@
+{
+   "name": "ПЗТ",
+   "description": "",
+   "type": "PointDefenseTurret",
+   "health": 1500,
+   "size": 4,
+   "bulletDamage": 70,
+   "range": 320,
+   "consumes": {
+     "power": 2.6,
+     "items": {
+       "items": [
+          {"item": "metallimet", "amount": 5}
+       ]
+     }
+   },
+   "requirements": [
+     {"item": "metallimet", "amount": 500},
+     {"item": "larn", "amount": 400},
+     {"item": "rel", "amount": 230}
+   ],
+   "category": "turret",
+   "research": {
+     "parent": "metallom",
+     "requirements": [
+       {"item": "metallimet", "amount": 5000},
+       {"item": "larn", "amount": 4350},
+       {"item": "rel", "amount": 2300},
+       {"item": "tron-el", "amount": 1000}
+     ],
+     "objectives": [
+       {"type": "SectorComplete", "preset": "obelisk-Artolium"}
+     ]
+   }
+}

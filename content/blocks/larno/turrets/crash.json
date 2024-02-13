@@ -1,0 +1,57 @@
+{
+   "type": "itemTurret"
+   "name": "Крушение",
+   "description": "",
+   "health": 1250,
+   "size": 2,
+   "range": 230,
+   "ammoTypes": {
+      "metallimet": {
+           "speed": 3.4,
+           "damage": 30,
+           "type": "BasicBulletType"
+      },
+      "titanium": {
+           "speed": 3.8,
+           "damage": 40,
+           "type": "BasicBulletType"
+      },
+      "shenium": {
+           "speed": 4,
+           "damage": 80,
+           "type": "BasicBulletType"
+      }
+   },
+   "requirements": [
+      {"item": "titanium", "amount": 150},
+      {"item": "metallimet", "amount": 250},
+      {"item": "graphite", "amount": 200},
+      {"item": "lead", "amount": 170}
+   ],
+   "research": {
+       "parent": "singularity"
+       "requirements": [
+          {"item": "lead", "amount": 700},
+          {"item": "copper", "amount": 1500},
+          {"item": "metallimet", "amount": 2000},
+          {"item": "titanium", "amount": 3000},
+          {"item": "graphite", "amount": 2400},
+          {"item": "larn", "amount": 2600}
+       ],
+       "objectives": [
+            {
+            type: "OnSector",
+            preset: "amor-island"
+        }
+	     "shenium-cleaner"
+	  ],
+   },
+   "category": "turret",
+   "hasLiquids": true,
+   "consumes": {
+      "liquid": {
+         "liquid": "antiheat",
+         "amount": 0.6
+      }
+   }
+}

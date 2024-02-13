@@ -1,0 +1,68 @@
+{
+   "name": "Захват",
+   "description": "",
+   "health": 1800,
+   "size": 3,
+   "type": "itemTurret",
+   "category": "turret",
+   "range": 260,
+   "consumes": {
+     "power": 0.8
+   },
+   "shootSound": "shootBig",
+   "ammoTypes": {
+     "shenium": {
+       "speed": 4.8,
+       "damage": 70,
+       "type": "BasicBulletType",
+       "frontColor": "adfffe",
+       "backColor": "ffd270",
+       "bulletWidth": 4,
+       "bulletHeight": 3
+     },
+     "tron-el": {
+       "speed": 5,
+       "damage": 60,
+       "type": "BasicBulletType",
+       "frontColor": "f73636",
+       "backColor": "ffd270",
+       "bulletWidth": 4,
+       "bulletHeight": 3
+     },
+     "sumet": {
+       "speed": 5.4,
+       "damage": 115,
+       "type": "BasicBulletType",
+       "frontColor": "36aaf7",
+       "backColor": "ffd270",
+       "bulletWidth": 4,
+       "bulletHeight": 3
+     },
+     "larn": {
+       "speed": 4.5,
+       "damage": 40,
+       "type": "BasicBulletType",
+       "frontColor": "367af7",
+       "backColor": "ffd270",
+       "bulletWidth": 4,
+       "bulletHeight": 3
+     }
+   },
+   "requirements": [
+     {"item": "shenium", "amount": 130},
+     {"item": "larn", "amount": 240},
+     {"item": "metallimet", "amount": 360}
+   ],
+   "research": {
+     "parent": "crash",
+     "requirements": [
+        {"item": "shenium", "amount": 1300},
+        {"item": "larn", "amount": 2400},
+        {"item": "metallimet", "amount": 3000}
+     ],
+     "objectives": [
+        {"type": "OnSector", "preset": "obelisk-Artolium"},
+        "crash"
+     ]
+   }
+}

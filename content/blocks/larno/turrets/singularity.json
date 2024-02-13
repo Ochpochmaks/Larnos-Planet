@@ -1,0 +1,63 @@
+{
+   "name": "Сингулярность",
+   "description": "",
+   "health": 600,
+   "size": 2,
+   "rotatespeed": 5,
+   "type": "itemTurret",
+   "range": 200,
+   "ammoTypes": {
+        "metallimet": {
+            "speed": 3.0,
+            "damage": 33,
+            "type": "BasicBulletType"
+        },
+        "larn": {
+            "speed": 3.5,
+            "damage": 55,
+            "type": "BasicBulletType"
+        },
+        "kwar": {
+            "speed": 4.0,
+            "damage": 70,
+            "type": "BasicBulletType"
+        },
+        "rel": {
+            "speed": 5.0,
+            "damage": 80,
+            "type":  "BasicBulletType"
+        }
+   },
+   "requirements": [
+        {"item": "lead", "amount": 120},
+        {"item": "larn", "amount": 60},
+        {"item": "metallimet", "amount": 80}
+   ],
+   "research": {
+    "parent": "metallom",
+    "requirements": [
+      {"item": "titanium", "amount": 500},
+      {"item": "copper", "amount": 5000},
+      {"item": "larn", "amount": 3000},
+      {"item": "metallimet", "amount": 6000},
+      {"item": "kwar", "amount": 400}
+     ]
+     "objectives": [
+        {
+            "type": "OnSector",
+            "preset": "triple-attack"
+        }
+     ]
+   },
+   "category": "turret",
+   "hasLiquids": true,
+   "consumes": {
+      "liquid": {
+          "liquid": "nova-slime",
+          "amount": 0.8,
+          "booster": true,
+          "optional": true,
+          "update": true
+      }
+   }
+}

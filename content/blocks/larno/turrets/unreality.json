@@ -1,0 +1,65 @@
+{
+   "type": "itemTurret",
+   "name": "Нереальность",
+   "description": "",
+   "health": 700,
+   "size": 3,
+   "recoil": 1,
+   "reload": 3,
+   "range": 150,
+   "inaccuracy": 5,
+   "rotatespeed": 8,
+   "ammoTypes": {
+        "copper":{
+          "speed": 2.8,
+          "damage": 15,
+          "reloadMultiplier": 1,
+          "bulletWidth": 3,
+          "bulletHeight": 3,
+          "shootEffect": "shootSmall",
+          "smokeEffect": "shootSmallSmoke",
+          "type": "BasicBulletType"
+        },
+        "larn": {
+          "speed": 3.0,
+          "damage": 30,
+          "reloadMultiplier": 2,
+          "bulletWidth": 5,
+          "bulletHeight": 4,
+          "shootEffect": "shootSmall",
+          "smokeEffect": "shootSmallSmoke",
+          "type": "BasicBulletType"
+        }
+
+   },
+   "requirements": [
+    {"item": "larn", "amount": 30},
+    {"item": "copper", "amount": 50},
+    {"item": "metallimet", "amount": 60}
+   ],
+   "research": {
+      "parent": "metallom",
+      "requirements": [
+        {"item": "larn", "amount": 2400},
+        {"item": "copper", "amount": 3000},
+        {"item": "metallimet", "amount": 2600}
+      ],
+       "objectives": [
+            {
+            type: "OnSector",
+            preset: "ice-glade"
+        }
+      	]
+   },
+   "category": "turret",
+   "hasLiquids": true,
+   "consumes": {
+      "liquid": {
+         "liquid": "nova-slime",
+         "amount": 0.6,
+         "booster": true,
+         "update": true,
+         "optional": true
+      }
+   }
+}

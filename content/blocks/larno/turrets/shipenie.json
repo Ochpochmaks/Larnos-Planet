@@ -1,0 +1,49 @@
+{
+   "name": "Шипение"
+   "description": "",
+   "type": "PowerTurret",
+   "category": "turret",
+   "range": 200,
+   "recoil": 10,
+   "reload": 35,
+   "inaccuracy": 0,
+   "rotatespeed": 3,
+   "shootSound": "bolt",
+   "health": 2000,
+   "size": 3,
+   "shootType": {
+      "type": "BasicBulletType",
+      "damage": 120,
+      "speed": 3,
+      "lifetime": 65,
+      "height": 13,
+      "width": 13,
+      "trailLength": 10,
+      "trailWidth": 2,
+      "frontColor": "ffffffff",
+      "backColor": "8e7dcdff"
+   },
+   "consumes": {
+      "power": 10
+   },
+   "requirements": [
+      {"item": "metallimet", "amount": 230},
+      {"item": "titanium", "amount": 40},
+      {"item": "lead", "amount": 100},
+      {"item": "larn", "amount": 150}
+   ],
+   "research": {
+      "parent": "reality",
+      "requirements": [
+          {"item": "titanium", "amount": 500},
+          {"item": "larn", "amount": 1400},
+          {"item": "metallimet", "amount": 4000}
+      ],
+      "objectives": [
+            {
+            type: "SectorComplete",
+            preset: "O.S.C."
+        }
+ 	   ]
+   }
+}
