@@ -1,0 +1,9 @@
+{
+   "name": "Шений",
+   "description": "",
+   "type": "material",
+   "research": {
+       "parent": "kwar"
+   },
+   "color": "46a5b0"
+}

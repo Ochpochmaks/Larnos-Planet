@@ -1,0 +1,9 @@
+{
+   "name": "Тронелиум",
+   "description": "",
+   "type": "material",
+   "color": "f05e3a",
+   "research": {
+      "parent": "rel"
+   }
+}

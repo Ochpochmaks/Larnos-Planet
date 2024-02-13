@@ -1,0 +1,11 @@
+{
+   "type": "material",
+   "name": "Фериум",
+   "description": "",
+   "tier": 1,
+   "hardness": 1,
+   "color": "d4cd46",
+   "research": {
+      "parent": "core-ferium"
+   }
+}

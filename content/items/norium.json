@@ -1,0 +1,9 @@
+{
+   "name": "Нориум",
+   "description": "",
+   "research": {
+      "parent": "ferium"
+   },
+   "type": "material",
+   "color": "ff9b30"
+}

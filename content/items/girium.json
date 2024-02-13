@@ -1,0 +1,10 @@
+{
+   "type": "material,
+   "name": "Гириум",
+   "tier": 1,
+   "hardness": 1,
+   "color": "595959",
+   "research": {
+      "parent": "ferium"
+   }
+}

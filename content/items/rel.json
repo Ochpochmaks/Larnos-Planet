@@ -1,0 +1,9 @@
+{
+   "name": "Релий",
+   "type": "material",
+   "description": "",
+   "color": "1db01a",
+   "research": {
+      "parent": "metallimet"
+   }
+}

@@ -1,0 +1,9 @@
+{
+   "name": "Сумет",
+   "description": "",
+   "type": "material",
+   "color": "bf9e19",
+   "research": {
+      "parent": "tron-el"
+   }
+}
