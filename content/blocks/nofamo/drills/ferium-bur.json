@@ -1,0 +1,22 @@
+{
+   "name": "Фериевый бур",
+   "description": "",
+   "type": "Drill",
+   "tier": 1,
+   "drillTime": 1100,
+   "size": 2,
+   "requirements": [
+      {"item": "ferium", "amount": 20},
+      {"item": "girium", "amount": 10}
+   ],
+   "research": {
+      "parent": "core-ferium",
+      "requirements": [
+         {"item": "ferium", "amount": 40}
+      ],
+      "objectives": [
+         {"type": "OnSector", "preset": "sand-wasteland"}
+      ]
+   },
+   "category": "production"
+}

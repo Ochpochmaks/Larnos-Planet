@@ -1,0 +1,22 @@
+{
+  "name": "Фериумовый маршрутизатор",
+  "health": 200,
+  "size": 1,
+  "itemCapacity": 5,
+  "research": {
+    "parent": "ferium-conveyor",
+    "requirements": [
+       {"item": "ferium", "amount": 200},
+       {"item": "girium", "amount": 150}
+    ],
+    "objectives": [
+       {"type": "OnSector", "preset": "sand-wasteland"}
+    ]
+  },
+  "requirements": [
+    {"item": "ferium", "amount": 20},
+    {"item": "girium", "amount": 15}
+  ],
+  "category": "distribution",
+  "type": "Router"
+}

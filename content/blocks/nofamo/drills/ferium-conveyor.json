@@ -1,0 +1,22 @@
+{
+   "type": "Conveyor",
+   "name": "Фериумовый конвейер",
+   "description": "",
+   "requirements": [
+        {"item": "ferium", "amount": 1},
+        {"item": "girium", "amount": 1}
+   ],
+   "category": "distribution",
+   "speed": 0.05,
+   "health": 350,
+   "research": {
+        "parent": "core-ferium",
+        "requirements": [
+              {"item": "ferium", "amount": 50},
+              {"item": "girium", "amount": 30}
+        ],
+        "objectives": [
+           {"type": "OnSector", "preset": "sand-wasteland"}
+        ]
+   }
+}
