@@ -1,0 +1,20 @@
+{
+   "name": "Гириумовая стена",
+   "description": "",
+   "type": "Wall",
+   "category": "defense",
+   "health": 260,
+   "size": 1,
+   "requirements": [
+      {"item": "girium", "amount": 25}
+   ]
+   "research": {
+      "parent": "core-ferium",
+      "requirements": [
+        {"item": "girium", "amount":  450}
+      ],
+      "objectives": [
+        {"type": "OnSector", "preset": "sand-wasteland"}
+      ]
+   }
+}

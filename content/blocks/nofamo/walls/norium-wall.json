@@ -1,0 +1,20 @@
+{
+   "name": "Нориумовая стена",
+   "description": "",
+   "type": "Wall",
+   "category": "defense",
+   "health": 340,
+   "size": 1,
+   "requirements": [
+      {"item": "norium", "amount": 15}
+   ]
+   "research": {
+      "parent": "girium-wall",
+      "requirements": [
+        {"item": "norium", "amount":  230}
+      ],
+      "objectives": [
+        {"type": "SectorComplete", "preset": "sand-wasteland"}
+      ]
+   }
+}

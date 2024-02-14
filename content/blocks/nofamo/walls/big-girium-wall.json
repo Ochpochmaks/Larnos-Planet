@@ -1,0 +1,17 @@
+{
+   "name": "Большая Гириумовая стена",
+   "description": "",
+   "type": "Wall",
+   "category": "defense",
+   "health": 600,
+   "size": 2,
+   "requirements": [
+      {"item": "girium", "amount": 65}
+   ]
+   "research": {
+      "parent": "girium-wall",
+      "requirements": [
+        {"item": "girium", "amount":  650}
+      ]
+   }
+}

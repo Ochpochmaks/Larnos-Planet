@@ -1,0 +1,17 @@
+{
+   "name": "Большая Нориумовая стена",
+   "description": "",
+   "type": "Wall",
+   "category": "defense",
+   "health": 800,
+   "size": 2,
+   "requirements": [
+      {"item": "norium", "amount": 50}
+   ]
+   "research": {
+      "parent": "norium-wall",
+      "requirements": [
+        {"item": "norium", "amount":  500}
+      ]
+   }
+}
