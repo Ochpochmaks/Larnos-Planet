@@ -1,0 +1,32 @@
+{
+   "name": "Турель Быстрого Действия",
+   "description": "",
+   "type": "itemTurret",
+   "health": 320,
+   "size": 2,
+   "range": 200,
+   "ammoTypes": {
+      "norium": {
+        "damage": 35,
+        "speed": 4.5,
+        "type": "BasicBulletType"
+      }
+   },
+   "requirements": [
+      {"item": "girium", "amount": 60},
+      {"item": "norium", "amount": 30},
+      {"item": "ferium", "amount": 80}
+   ],
+   "category": "turret",
+   "research": {
+      "parent": "oppor",
+      "requirements": [
+        {"item": "ferium", "amount": 800},
+        {"item": "girium", "amount": 600},
+        {"item": "norium", "amount": 300}
+      ],
+      "objectives": [
+        {"type": "SectorComplete", "preset": "sand-wasteland"}
+      ]
+   }
+}

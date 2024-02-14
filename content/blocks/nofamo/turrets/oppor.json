@@ -1,0 +1,38 @@
+{
+   "name": "Возможность",
+   "description": "",
+   "type": "itemTurret",
+   "health": 230,
+   "size": 1,
+   "range": 120,
+   "ammoTypes": {
+       "ferium": {
+          "damage": 23,
+          "speed": 2,
+          "type": "BasicBulletType"
+       },
+       "girium": {
+          "damage": 35,
+          "speed": 2.3,
+          "type": "BasicBulletType"
+       }
+   },
+   "requirements": [
+     {"item": "ferium", "amount": 35},
+     {"item": "girium", "amount": 25}
+   ]
+   "category": "turret",
+   "research": {
+      "parent": "core-ferium",
+      "requirements": [
+         {"item": "ferium", "amount": 350},
+         {"item": "girium", "amount": 250}
+      ],
+      "objectives": [
+        {
+           "type": "OnSector",
+           "preset": "sand-wasteland"
+        }
+      ]
+   }
+}
