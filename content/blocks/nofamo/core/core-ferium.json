@@ -1,0 +1,35 @@
+{
+   "type": CoreBlock
+   "name": "Фериумовое ядро"
+   "category": effect
+   "health": 1800
+   "size": 3
+   "itemCapacity": 5000
+   "unitCapModifier": 10
+
+   "incinerateNonBuildable": true
+   "isFirstTier": true
+   "squareSprite": false
+   "unitType": "indo"
+
+   "requirements": [
+     {"item": "ferium", "amount": 5000}
+     {"item": "girium", "amount": 5500}
+   ]
+
+"research": {
+    "parent": "core-metallimet"
+    "root": true
+    "name": Нофамо
+   	"planet": nofamo
+}
+
+   "alwaysUnlocked": true
+   "objectives": [
+            {
+            type: "SectorComplete",
+            preset: "last-point"
+        }
+	     "sumet-brewer"
+	]
+}
