@@ -1,0 +1,32 @@
+{
+   "name": "Нориумовый смешиватель",
+   "description": "",
+   "type": "genericCrafter"
+   "outputItem": {"item": "norium", "amount": 1},
+   "size": 1,
+   "health": 230,
+   "consumes": {
+     "items": {
+        "items": [
+          {"item": "ferium", "amount": 1},
+          {"item": "girium", "amount": 1}
+        ]
+     }
+   },
+   "craftTime": 300,
+   "requirements": [
+     {"item": "ferium", "amount": 40},
+     {"item": "girium", "amount": 34}
+   ],
+   "category": "crafting",
+   "research": {
+     "parent": "core-ferium",
+     "requirements": [
+        {"item": "ferium", "amount": 400},
+        {"item": "girium", "amount": 340}
+     ],
+     "objectives": [
+        {"type": "SectorComplete", "preset": "sand-wasteland"}
+     ]
+   }
+}
