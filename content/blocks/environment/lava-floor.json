@@ -1,0 +1,15 @@
+{
+   type: Floor
+   name: "Лава"
+   variants: 0
+
+   isLiquid: true
+   liquidDrop: lava
+
+   status: melting
+   statusDuration: 300
+   speedMultiplier: 0.7
+   drownTime: 180
+
+   cacheLayer: water
+}

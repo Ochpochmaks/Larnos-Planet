@@ -1,0 +1,15 @@
+{
+   type: Floor
+   name: "Антинагревная жидкость"
+   variants: 0
+
+   isLiquid: true
+   liquidDrop: antiheat
+
+   status: none
+   statusDuration: 300
+   speedMultiplier: 0.7
+   drownTime: 180
+
+   cacheLayer: water
+}
