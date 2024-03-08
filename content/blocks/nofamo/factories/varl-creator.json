@@ -1,0 +1,27 @@
+{
+   "name": "Обрабатыватель Варлия",
+   "description": "",
+   "health": 280,
+   "size": 2,
+   "type": "genericCrafter",
+   "outputItem": {"item": "varl", "amount": 1},
+   "consumes": {
+    "items": {
+     "items": [
+      {"item": "ferium", "amount": 2}
+     ]
+    }
+   },
+   "category": "crafting",
+   "requirements": [
+    {"item": "norium", "amount": 40},
+    {"item": "girium", "amount": 50}
+   ],
+   "research": {
+    "parent": "norium-mixer",
+    "requirements": [
+     {"item": "norium", "amount": 400},
+     {"item": "girium", "amount": 500}
+    ]
+   }
+}

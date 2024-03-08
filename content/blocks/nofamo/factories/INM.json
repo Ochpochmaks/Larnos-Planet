@@ -1,0 +1,31 @@
+{
+   "name": "УНС",
+   "description": "",
+   "health": 260,
+   "size": 2,
+   "type": "genericCrafter",
+   "outputItem": {"item": "norium", "amount": 2},
+   "consumes": {
+    "items": {
+     "items": [
+      {"item": "ferium", "amount": 3},
+      {"item": "girium", "amount": 3}
+     ]
+    },
+    "power": 1.1
+   },
+   "category": "crafting",
+   "requirements": [
+    {"item": "norium", "amount": 40},
+    {"item": "girium", "amount": 60},
+    {"item": "ferium", "amount": 80}
+   ],
+   "research": {
+    "parent": "norium-mixer",
+    "requirements": [
+     {"item": "norium", "amount": 400},
+     {"item": "ferium", "amount": 800},
+     {"item": "girium", "amount": 600}
+    ]
+   }
+}
