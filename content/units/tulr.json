@@ -5,7 +5,7 @@
   "health": 200,
   "armor": 5,
   "hitSize": 8.4,
-  "controller": BuilderAI,
+  "controller": "BuilderAI",
   "isEnemy": false,
   "mineWalls": true,
   "mineFloor": true,
