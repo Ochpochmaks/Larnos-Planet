@@ -1,0 +1,43 @@
+{
+   "name": "Акрозе",
+   "description": "",
+   "health": 680,
+   "type": "mech",
+   "flying": false,
+   "TargetAir": true,
+   "armor": 4,
+   "speed": 1.3,
+   "range": 120,
+   "outloneColor": "212121",
+   "weapons": [
+    {
+     "name": "krakatau",
+     "reload": 25,
+     "recoil": 13,
+     "bullet": {
+      "damage": 10,
+      "speed": 2.7,
+      "type": "BasicBulletType"
+     }
+    },
+    {
+     "name": "tada",
+     "reload": 40,
+     "recoil": 20,
+     "bullet": {
+      "damage": 30,
+      "speed": 2.8,
+      "type": "BasicBulletType"
+     }
+    }
+   ],
+   "research": {
+    "parent": "akro",
+    "requirements": [
+     {"item": "metallimet", "amount": 0}
+    ],
+    "objectives": [
+     {"type": "SectorComplete", "preset": "amor-island"}
+    ]
+   }
+}
