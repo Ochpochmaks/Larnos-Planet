@@ -1,0 +1,47 @@
+{
+   "name": "Акрозен",
+   "description": "",
+   "health": 740,
+   "armor": 6,
+   "flying": false,
+   "TargetAir": true,
+   "type": "mech",
+   "speed": 1.1,
+   "range": 160,
+   "weapons": [
+    {
+     "name": "akrozen-gun1",
+     "reload": 60,
+     "recoil": 13,
+     "bullet": {
+      "damage": 40,
+      "width": 20,
+      "height": 80,
+      "frontColor": "d1a11d",
+      "backColor": "d1a11d",
+      "type": "LaserBulletType"
+     }
+    },
+    {
+     "name": "akrozen-gun2",
+     "reload": 20,
+     "recoil": 10,
+     "bullet": {
+      "damage": 15,
+      "speed": 2,
+      "width": 10,
+      "height": 15,
+      "type": "BasicBulletType"
+     }
+    }
+   ],
+   "research": {
+    "parent": "akroze",
+    "requirements": [
+     {"item": "metallimet", "amount": 0}
+    ],
+    "objectives": [
+     {"type": "SectorComplete", "preset": "O.S.C."}
+    ]
+   }
+}
