@@ -1,0 +1,28 @@
+{
+   "name": "Сжигатель",
+   "description": "",
+   "health": 100,
+   "type": "consumeGenerator",
+   "size": 2,
+   "consumes": {
+    "items": {
+     "items": [
+      {"item": "varl", "amount": 1}
+     ]
+    }
+   },
+   "powerProduction": 1.5,
+   "itemDuration": 60,
+   "category": "power",
+   "requirements": [
+    {"item": "norium", "amount": 50},
+    {"item": "girium", "amount": 60}
+   ],
+   "research": {
+    "parent": "core-ferium",
+    "requirements": [
+     {"item": "norium", "amount": 500},
+     {"item": "girium", "amount": 600}
+    ]
+   }
+}
