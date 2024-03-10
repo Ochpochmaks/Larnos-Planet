@@ -1,0 +1,35 @@
+{
+   "name": "ВТУ",
+   "description": "",
+   "health": 270,
+   "size": 2,
+   "range": 160,
+   "type": "liquidTurret",
+   "ammoTypes": {
+    "water": {
+     "liquid": "water",
+     "damage": 5,
+     "speed": 2.5,
+     "type": "liquidBulletType"
+    }
+   },
+   "requirements": [
+    {"item": "norium", "amount": 50},
+    {"item": "varl", "amount": 70},
+    {"item": "girium", "amount": 60},
+    {"item": "ferium", "amount": 55}
+   ],
+   "category": "turret",
+   "research": {
+    "parent": "oppor",
+    "requirements": [
+     {"item": "norium", "amount": 500},
+     {"item": "varl", "amount": 700},
+     {"item": "girium", "amount": 600},
+     {"item": "ferium", "amount": 550}
+    ],
+    "objectives": [
+     {"type": "SectorComplete", "preset": "sand-wasteland"}
+    ]
+   }
+}
