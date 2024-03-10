@@ -1,0 +1,19 @@
+{
+   "name": "Фериумовый перекрёсток",
+   "description": "",
+   "health": 80,
+   "type": "Junction",
+   "size": 1,
+   "category": "distribution",
+   "requirements": [
+    {"item": "ferium", "amount": 2},
+    {"item": "girium", "amount": 1}
+   ],
+   "research": {
+    "parent": "ferium-conveyor",
+    "requirements": [
+     {"item": "ferium", "amount": 20},
+     {"item": "girium", "amount": 10}
+    ]
+   }
+}
