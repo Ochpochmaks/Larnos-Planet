@@ -1,0 +1,24 @@
+{
+  "type": "pump",
+  "name": "Фериумовая помпа",
+  "hasLiquids": true,
+  "liquidCapacity": 40,
+  "size": 2,
+  "squareSprite": false,
+  "pumpAmount": 0.2,
+  "category": "liquid",
+  "requirements": [
+   {"item": "ferium", "amount": 42},
+   {"item": "girium", "amount": 31}
+  ]
+  "research": {
+   "parent": "core-ferium",
+   "requirements": [
+    {"item": "ferium", "amount": 420},
+    {"item": "girium", "amount": 310}
+   ],
+   "objectives": [
+    {"type": "SectorComplete", "preset": "sand-wasteland"}
+   ]
+  }
+}
