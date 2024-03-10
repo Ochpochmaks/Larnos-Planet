@@ -1,0 +1,31 @@
+{
+   "name": "Тоан",
+   "description": "",
+   "health": 130,
+   "flying": false,
+   "TargetAir": true,
+   "type": "mech",
+   "hitSize": 8,
+   "speed": 0.9,
+   "weapons": [
+    {
+     "name": "toan-gun1",
+     "reload": 30,
+     "recoil": 8,
+     "bullet": {
+      "damage": 10,
+      "speed": 1.8,
+      "type": "BasicBulletType"
+     }
+    }
+   ],
+   "research": {
+    "parent": "core-ferium",
+    "requirements": [
+     {"item": "ferium", "amount": 0}
+    ],
+    "objectives": [
+     {"type": "SectorComplete", "preset": "sand-wasteland"}
+    ]
+   }
+}

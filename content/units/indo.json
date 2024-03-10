@@ -1,0 +1,41 @@
+name: "Индо"
+type: payload
+flying: true
+health: 300
+armor: 0
+hitSize: 8
+
+controller: BuilderAI
+isEnemy: false
+mineWalls: true
+mineFloor: true
+buildSpeed: 1.2
+itemCapacity: 20
+weapons: [
+  {
+   "name": "piu",
+   "reload": 40,
+   "bullet": {
+    "damage": 5,
+    "speed": 1,
+    "length": 5,
+    "width": 5,
+    "backColor": "fcffde"
+   }
+  }
+]
+
+speed: 2
+mineSpeed: 2
+mineTier: 1
+rotateSpeed: 5
+
+crashDamageMultiplier: 0
+hittable: true
+targetable: true
+coreUnitDock: true
+outlineColor: 212121
+
+payloadCapacity: 64
+pickupUnits: false
+vulnerableWithPayloads: true
