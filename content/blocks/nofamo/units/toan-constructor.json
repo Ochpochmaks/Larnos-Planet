@@ -1,0 +1,38 @@
+{
+   "name": "Конструктор Тоанов",
+   "description": "",
+   "health": 400,
+   "size": 3,
+   "type": "UnitFactory",
+   "consumes": {
+    "power": 1.2
+   },
+   "plans": [
+    {
+     "unit": "toan",
+     "requirements": [
+      {"item": "norium", "amount": 30},
+      {"item": "varl", "amount": 25},
+      {"item": "girium", "amount": 50}
+     ],
+     "time": 600
+    }
+   ],
+   "requirements": [
+    {"item": "norium", "amount": 300},
+    {"item": "varl", "amount": 250},
+    {"item": "girium", "amount": 500}
+   ],
+   "category": "units",
+   "research": {
+    "parent": "core-ferium",
+    "requirements": [
+     {"item": "norium", "amount": 3000},
+     {"item": "varl", "amount": 2500},
+     {"item": "girium", "amount": 5000}
+    ],
+    "objectives": [
+     {"type": "SectorComplete", "preset": "sand-wasteland"}
+    ]
+   }
+}
