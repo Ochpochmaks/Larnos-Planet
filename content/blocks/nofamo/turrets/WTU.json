@@ -27,9 +27,6 @@
      {"item": "varl", "amount": 700},
      {"item": "girium", "amount": 600},
      {"item": "ferium", "amount": 550}
-    ],
-    "objectives": [
-     {"type": "SectorComplete", "preset": "sand-wasteland"}
     ]
    }
 }

@@ -1,0 +1,59 @@
+{
+   "name": "Тишина",
+   "description": "Мощная турель стреляющая сильно разргретым Варлием. Требует Варлий и энергию чтобы его разогреть до температуры примерной 130°С. Можно добавить воду в специальный отсек для охлаждения.",
+   "health": 410,
+   "type": "itemTurret",
+   "size": 3,
+   "range": 120,
+   "reload": 60,
+   "shootSound": "flame",
+   "consumes": {
+    "power": 1.2,
+    "liquid": {
+     "liquid": "water",
+     "optional": true,
+     "coolant": true,
+     "boost": true,
+     "update": true
+    }
+   },
+   "immumities": [
+    "burning"
+   ]
+   "ammoTypes": {
+    "varl": {
+     "damage": 44,
+     "recoil": 15,
+     "speed": 2.6,
+     "width": 20,
+     "height": 20,
+     "lifeTime": 60,
+     "shoot": {
+      "shots": 8
+     },
+     "frontColor": "ffa845",
+     "backColor": "a36014",
+     "type": "BasicBulletType",
+     "status": "burning",
+     "statusDuring": 3
+    }
+   },
+   "category": "turret",
+   "requirements": [
+    {"item": "varl", "amount": 50},
+    {"item": "girium", "amount": 90},
+    {"item": "norium", "amount": 40}
+   ],
+   "research": {
+    "parent": "TFU",
+    "requirements": [
+     {"item": "varl", "amount": 500},
+     {"item": "girium", "amount": 900},
+     {"item": "norium", "amount": 400}
+    ],
+    "objectives": [
+     {"type": "OnSector", "preset": "sand-wasteland"},
+     "TFA"
+    ]
+   }
+}

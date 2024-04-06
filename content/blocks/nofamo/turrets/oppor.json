@@ -29,10 +29,7 @@
          {"item": "girium", "amount": 250}
       ],
       "objectives": [
-        {
-           "type": "OnSector",
-           "preset": "sand-wasteland"
-        }
+       {"type": "OnSector", "preset": "sand-wasteland"}
       ]
    }
 }
