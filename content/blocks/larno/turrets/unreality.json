@@ -11,9 +11,9 @@
    "rotatespeed": 8,
    "ammoTypes": {
         "copper":{
-          "speed": 2.8,
+          "speed": 2.3,
           "damage": 15,
-          "reloadMultiplier": 1,
+          "reloadMultiplier": 0.5,
           "bulletWidth": 3,
           "bulletHeight": 3,
           "shootEffect": "shootSmall",
@@ -21,9 +21,9 @@
           "type": "BasicBulletType"
         },
         "larn": {
-          "speed": 3.0,
+          "speed": 2.5,
           "damage": 30,
-          "reloadMultiplier": 2,
+          "reloadMultiplier": 0.5,
           "bulletWidth": 5,
           "bulletHeight": 4,
           "shootEffect": "shootSmall",
@@ -44,12 +44,9 @@
         {"item": "copper", "amount": 3000},
         {"item": "metallimet", "amount": 2600}
       ],
-       "objectives": [
-            {
-            type: "OnSector",
-            preset: "ice-glade"
-        }
-      	]
+      "objectives": [
+       {"type": "OnSector", preset: "ice-glade"}
+      ]
    },
    "category": "turret",
    "hasLiquids": true,
