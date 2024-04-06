@@ -1,0 +1,31 @@
+{
+   "name": "Нориумовый регенератор",
+   "description": "",
+   "type": "mendProjector",
+   "size": 2,
+   "reload": 120,
+   "range": 45,
+   "regen": 1,
+   "phaseBoost": 0
+   "phaseRangeBoost": 0
+   "requirements": [
+    {"item": "norium", "amount": 20},
+    {"item": "girium", "amount": 40},
+    {"item": "ferium", "amount": 50},
+   ],
+   "consumes": {
+    "power": 1.4
+   }
+   "research": {
+    "parent": "core-ferium",
+    "requirements": [
+     {"item": "norium", "amount": 200},
+     {"item": "girium", "amount": 400},
+     {"item": "ferium", "amount": 500},
+    ],
+    "objectives": [
+     {"type": "SectorComplete", "preset": "sand-wasteland"}
+    ]
+   },
+   "category": "effect"
+}

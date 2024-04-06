@@ -1,0 +1,24 @@
+{
+  "laserRange": 10,
+  "maxNodes": 10,
+  "category": "power",
+  "name": "Гириумовый силовой узел",
+  "description": "",
+  "health": 100,
+  "size": 1,
+  "itemCapacity": 10,
+  "requirements": [
+    {"item": "girium", "amount": 10}
+  ],
+  "research": {
+    "parent": "core-ferium",
+    "requirements": [
+        {"item": "larn", "amount": 150},
+        {"item": "metallimet", "amount": 280}
+    ],
+    objectives: [
+     {"type": "OnSector", "preset": "sand-wasteland"}
+    ]
+  },
+  "type": "PowerNode"
+}

@@ -23,6 +23,9 @@
     "requirements": [
      {"item": "norium", "amount": 500},
      {"item": "girium", "amount": 600}
+    ],
+    "objectives": [
+     {"type": "OnSector", "preset": "O.C.N.A"}
     ]
    }
 }
